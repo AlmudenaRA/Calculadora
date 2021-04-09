@@ -108,6 +108,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt0"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonCero"
@@ -118,6 +119,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btComma"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonComma"
@@ -128,6 +130,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btEqual"
+        style="@style/SymbolButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonEqual"
@@ -138,6 +141,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt1"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonOne"
@@ -148,6 +152,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt2"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonTwo"
@@ -158,6 +163,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt3"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonThree"
@@ -168,6 +174,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btPlus"
+        style="@style/SymbolButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonPlus"
@@ -178,6 +185,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt4"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonFour"
@@ -188,6 +196,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt5"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonFive"
@@ -198,6 +207,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt6"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonSix"
@@ -208,6 +218,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btMinus"
+        style="@style/SymbolButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonMinus"
@@ -218,6 +229,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt7"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonSeven"
@@ -228,6 +240,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt8"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonEight"
@@ -238,6 +251,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt9"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonNine"
@@ -248,6 +262,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btMul"
+        style="@style/SymbolButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonMult"
@@ -258,6 +273,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btClear"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonClear"
@@ -268,6 +284,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btDiv"
+        style="@style/SymbolButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/buttonDiv"
@@ -275,4 +292,15 @@
         app:layout_constraintBottom_toTopOf="@id/gHor5"
         app:layout_constraintTop_toBottomOf="@id/gHor6"
         app:layout_constraintEnd_toStartOf="@id/gVer5" />
+
+    <View
+        android:id="@+id/separator"
+        style="@style/Separator"
+        android:layout_height="0dp"
+        android:text="@string/buttonDiv"
+        app:layout_constraintStart_toStartOf="@id/gVer4"
+        app:layout_constraintBottom_toBottomOf="@id/gHor1"
+        app:layout_constraintTop_toTopOf="@id/gHor6"
+        app:layout_constraintEnd_toEndOf="@id/gVer4"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
